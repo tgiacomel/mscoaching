@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'wolf';
+    src: url('../fonts-perso/wolf_in_the_city/wolf.otf') format('truetype');
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+#menu {
+    height: 100px;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+#ul-menu a {
+    color : #3378EF;
+}
+
+
+#ul-menu a:hover {
+    color : #3300EF;
+}
+#ul-menu li.active{
+    background-color: #3378EF;
+    color : #fff;
+
+}
+
+.splash-image {
+    background: rgba(0, 0, 0, 0) url("../img/ms-coaching-splah-image.jpg") no-repeat scroll 0 0 / cover ;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+#presentation {
+    margin : 120px;
+}
+
+.section-blue {
+    color : #fff;
+    padding-bottom: 20px;
+    opacity: 1;
+    border : 1px solid #fff;
+}
+
+.section-white {
+    border : 1px solid #3378EF;
+    background-color: #fff;
+}
+
+.section {
+    display: table;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.section-fullpage {
+    height: 100vh;
+    min-height: 100vh;
+}
+.section-content {
+    display: table-cell;
+    padding: 20px;
+    vertical-align: middle;
+}
+section {
+    display:block;
+    min-height : 90vh;
+}
+#presentation {
+    margin-top: 100px;
+    color : #fff;
+}
+
+h1, h2, h3, h4 {
+    font-family: wolf;
+}
+h2{font-size : 3em;}
+h1 {
+    font-size: 4em;
+    padding-bottom: 10px;
+}
+
+.carousel {
+    margin-top: 30px;
+}
