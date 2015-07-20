@@ -1,8 +1,7 @@
-@font-face {
-    font-family: 'wolf';
-    src: url('../fonts-perso/wolf_in_the_city/wolf.otf') format('truetype');
+a:focus,button:focus
+{
+    outline:0;
 }
-
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,28 +12,31 @@ p{
 #menu {
     height: 100px;
     background-color: #fff;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 #ul-menu a {
     color : #3378EF;
 }
 
-
-#ul-menu a:hover {
-    color : #3300EF;
-}
-#ul-menu li.active{
-    background-color: #3378EF;
-    color : #fff;
-
+#ul-menu li:hover, #ul-menu li.active{
+  border-bottom: 3px solid #337AB7;
 }
 
+#ul-menu li.active > a ,#ul-menu li:hover {
+    background-color: #fff;
+    font-weight: bold;
+}
 .splash-image {
     background: rgba(0, 0, 0, 0) url("../img/ms-coaching-splah-image.jpg") no-repeat scroll 0 0 / cover ;
     height: 100%;
     position: fixed;
     width: 100%;
+}
+
+.legend {
+    font-size: 0.8em;
+    font-style: italic;
 }
 
 #presentation {
@@ -78,7 +80,7 @@ section {
 }
 
 h1, h2, h3, h4 {
-    font-family: wolf;
+    font-family: Tangerine;
 }
 h2{font-size : 3em;}
 h1 {
