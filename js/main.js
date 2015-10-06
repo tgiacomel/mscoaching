@@ -5,10 +5,11 @@ $(document).ready(function(){
     $("nav#menu ul > li > a").click(function(event){
         event.preventDefault();
         $("nav#menu ul > li.active").removeClass("active");
-        var target = $(this);
-        target.parent().addClass("active");
-        scrollTo(target.attr("href"));
-
+        var target = $(this)
+        if(!target.hasClass("dropdown-toggle")){
+            target.parent().addClass("active");
+            scrollTo(target.attr("href"));
+        }
     });
 });
 

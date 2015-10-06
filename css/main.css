@@ -43,6 +43,7 @@ p{
     margin : 120px;
     margin-top: 100px;
     color : #fff;
+    font-size: 1.3em;
 }
 
 .section-blue {
@@ -97,4 +98,13 @@ h1 {
 
 .section-accueil{
     padding-top : 15vh;
+}
+
+.sap{
+    margin-top: 20px;
+
+}
+
+#preparation-physique p, #cours-collectifs p {
+    text-align: center;
 }
